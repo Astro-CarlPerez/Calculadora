@@ -1,4 +1,4 @@
-// Traer elementos al HTML
+// 1.-Traer elementos al HTML
 
 var input1 = document.querySelector("#input1");
 var input2 = document.querySelector("#input2");
@@ -12,7 +12,8 @@ var resultado = document.querySelector("#resultado");
 
 var valorResultado = 0;
 
-
+// 2.- Se asignan las funciones 
+// 3.-Despues de cada funcion se asignan la funcionalidad de los botones
 function sumar(){
 if(valorResultado = Number(input1.value) + Number(input2.value));
         resultado.innerHTML = valorResultado;
